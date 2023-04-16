@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UP SELLIA - Online shoping</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: black;
+      color: #fff;
+      padding: 43px 2%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+     .logo{
+       height: 47px;
+       width: 50px;
+       position: absolute;
+       left: 15%;
+       top: 10%;
+     }
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      margin-right: 10px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .product {
+      width: 300px;
+      margin: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,.3);
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .product h3 {
+      margin: 10px 0;
+      font-size: 1.5rem;
+    }
+
+    .product p {
+      margin: 10px;
+      font-size: 1.2rem;
+    }
+
+    .product span {
+      display: block;
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .product button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    /* Media Queries */
+
+    /* Mobile */
+    @media only screen and (max-width: 767px) {
+      .product {
+        width: 100%;
+        margin: 10px 0;
+      }
+    }
+
+    /* Tablet */
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+      .product {
+        width: 45%;
+        margin: 20px 2.5%;
+      }
+    }
+
+    /* Desktop */
+    @media only screen and (min-width: 1024px) {
+      .product {
+        width: 30%;
+        margin: 20px 3.33%;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>UPSELLIA</h1>
+    <img src="logo.png" class="logo">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="product">
+        <img src="product-1.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet elit ac ipsum dapibus, ut sodales urna bibendum. </p>
+        <span>$19.99</span>
+        <button>Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="product-2.jpg" alt="Product 2">
+    <h3>Product 2</h3>
+    <p>Nulla eget sagittis augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed vehicula dignissim elit, non eleifend quam gravida sed. </p>
+    <span>$29.99</span>
+    <button>Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="product-3.jpg" alt="Product 3">
+    <h3>Product 3</h3>
+    <p>Fusce congue lacus id felis iaculis, vel luctus purus lacinia. Proin volutpat ante at risus lobortis, id blandit quam cursus. </p>
+    <span>$39.99</span>
+    <button>Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="product-4.jpg" alt="Product 4">
+    <h3>Product 4</h3>
+    <p>Maecenas in faucibus nunc, id blandit nulla. Sed laoreet auctor est vel faucibus. Nam dictum, nibh id scelerisque vehicula, ipsum turpis rutrum eros, nec interdum ante ante et elit. </p>
+    <span>$49.99</span>
+    <button>Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="product-5.jpg" alt="Product 5">
+    <h3>Product 5</h3>
+    <p>Donec pulvinar justo nec tellus dapibus aliquam. Vivamus a lacinia dolor. Maecenas tempor, nibh a bibendum viverra, nisi augue consectetur velit, non congue mauris nisi non mauris. </p>
+    <span>$59.99</span>
+    <button>Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="product-6.jpg" alt="Product 6">
+    <h3>Product 6</h3>
+    <p>Ut faucibus tortor nec neque rhoncus, vel egestas ipsum bibendum. Aliquam quis ex ut lectus mollis pulvinar eu eget elit. </p>
+    <span>$69.99</span>
+    <button>Add to Cart</button>
+    
+  </div>
+</div>
+</main>
+</body>
+</html>
